@@ -1,0 +1,16 @@
+{
+  "name": "time-viewer.com",
+  "version": "1.0.0",
+  "description": "A local time, UTC time, and Unix time viewer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": "bwbjustin/time-viewer.com",
+  "homepage": "https://www.time-viewer.com",
+  "author": "BWBJustin",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}

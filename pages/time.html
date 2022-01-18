@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>time-viewer.com</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/moment.js"></script>
+    <script src="js/moment-timezone-with-data.js"></script>
+</head>
+<body>
+    <noscript>time-viewer.com requires JavaScript to run.</noscript>
+    <div id="root">
+        <canvas width="510" height="510" class="center"></canvas>
+        <div class="left">
+            <div id="logo">
+                <img src="img/logo-dark.png" alt="time-viewer.com">
+                <h1>time-viewer.com</h1>
+            </div>
+            <p id="time"></p>
+        </div>
+        <div class="right">
+            <input type="checkbox" id="light" name="light" value="Light" onchange="onCheck(0, date);">
+            <label for="light">☀️</label>
+            <br>
+            <input type="checkbox" id="dark" name="dark" value="Dark" onchange="onCheck(1, date);">
+            <label for="dark">🌑</label>
+        </div>
+        <div class="bottom left">
+            <p><a href="https://github.com/BWBJustin/time-viewer.com">GitHub</a></p>
+            <p>Copyright 2022 <a href="https://linktr.ee/BWBJustin">BWBJustin</a>. This website is licensed under the <a href="license">MIT License</a>.</p>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/time.js">
+        document.getElementById("root").style.display = "block";
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+h1, p {
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    max-height: none;
+}
+
+.left {
+    float: left;
+    text-align: left;
+}
+
+#logo {
+    display: flex;
+    margin: 10px;
+}
+
+#logo h1 {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.right {
+    float: right;
+    text-align: right;
+}
+
+#root {
+    display: none;
+}
