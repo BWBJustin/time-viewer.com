@@ -100,7 +100,7 @@ function reloadCanvas(date) {
     for (let i = 0; i < 12; i++) {
         ctx.beginPath();
         ctx.lineWidth = 1;
-        ctx.font = "30px Tahoma";
+        ctx.font = "30px Tahoma, Verdana, Segoe, sans-serif";
         ctx.textAlign = "center";
         ctx.fillStyle = themes[theme].white;
         ctx.fillText(i + 1, numberCoords[i][0], numberCoords[i][1]);
