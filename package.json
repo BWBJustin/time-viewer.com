@@ -1,7 +1,7 @@
 {
   "name": "time-viewer.com",
   "version": "1.0.0",
-  "description": "A local time, UTC time, and Unix time viewer.",
+  "description": "A time viewer to fit your needs.",
   "main": "index.js",
   "scripts": {
     "test": "node ."

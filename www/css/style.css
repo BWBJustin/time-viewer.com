@@ -1,4 +1,4 @@
-h1, p {
+h1, noscript, p {
     font-family: Tahoma, Verdana, Segoe, sans-serif;
 }
 
@@ -7,11 +7,24 @@ h1, p {
     bottom: 0;
 }
 
+button {
+    border-style: solid;
+    cursor: pointer;
+}
+
+input[type=text] {
+    border-style: solid;
+}
+
 .center {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.dark::placeholder {
+    color: #ffffff;
 }
 
 img {
@@ -23,14 +36,8 @@ img {
     text-align: left;
 }
 
-#logo {
-    display: flex;
-    margin: 10px;
-}
-
-#logo h1 {
-    margin-left: 20px;
-    margin-top: 30px;
+.light::placeholder {
+    color: #000000;
 }
 
 .right {
@@ -40,4 +47,8 @@ img {
 
 #root {
     display: none;
+}
+
+#sitename {
+    cursor: pointer;
 }
